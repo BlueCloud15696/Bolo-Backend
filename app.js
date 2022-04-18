@@ -4,7 +4,6 @@ var cookieParser = require("cookie-parser");
 var logger = require("morgan");
 
 let mongoose = require("mongoose");
-let multer = require("multer");
 let cors = require("cors");
 
 var usersRouter = require("./routes/users");
