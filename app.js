@@ -13,7 +13,7 @@ var questionsRouter = require("./routes/question");
 var developersRouter = require("./routes/developer");
 
 const connectionString =
-    "mongodb+srv://user1:passwordv@cluster0.o6rah.mongodb.net/DatabaseName?retryWrites=true&w=majority";
+  "mongodb+srv://user1:fKv0VvLYqnpsugVx@cluster0.fvp09.mongodb.net/BoloAppDb?retryWrites=true&w=majority";
 mongoose.connect(connectionString, {
     useUnifiedTopology: true,
     useNewUrlParser: true,
