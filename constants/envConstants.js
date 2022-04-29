@@ -5,6 +5,11 @@ const envConstants = {
     email: "your email",
     emailPass: "email password",
     BASE_URL: "https://localhost:3000",
+    Access_key_ID: "AKIAS2EKNRHCA4WZ4T4P",
+    Secret_access_key: "wMmvdIZi3koSU8P/Va1357M8AQUPTU/gJAp7cixN",
+    bucket_name: "bolo-image-bucket",
+    bucket_region: "us-east-1",
+    password: "'*y1UR7J3sV1RoU"
 };
 
 module.exports = envConstants;
