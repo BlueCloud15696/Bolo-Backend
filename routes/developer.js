@@ -147,8 +147,7 @@ router.post(
             languages,
             experienceYear,
             rate,
-        } = req.body;
-        console.log('req.body: ' + req.body)
+        } = req.body;        
         if (req.user.role == "ADMIN") {
             try {
                 /* const fileContent = fs.readFileSync(avatar.path);
