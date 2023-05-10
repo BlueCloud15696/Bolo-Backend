@@ -16,7 +16,8 @@ var meetingRouter = require("./routes/meeting");
 // const connectionString =
 //   "mongodb+srv://user1:fKv0VvLYqnpsugVx@cluster0.fvp09.mongodb.net/BoloAppDb?retryWrites=true&w=majority";
 
-const connectionString = "mongodb://localhost:27017/BoloAppDb";
+// const connectionString = "mongodb://localhost:27017/BoloAppDb";
+const connectionString = "mongodb+srv://doadmin:vbXq0F893yO254Z7@db-mongodb-nyc1-35191-89357fca.mongo.ondigitalocean.com/admin?tls=true&authSource=admin";
 mongoose.connect(connectionString, {
   useUnifiedTopology: true,
   useNewUrlParser: true,
