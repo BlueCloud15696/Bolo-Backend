@@ -7,7 +7,6 @@
 
 # build files
 package-lock.json
-yarn.lock
 src/index.css
 
 # testing

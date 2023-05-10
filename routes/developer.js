@@ -11,7 +11,6 @@ const fs = require("fs");
 const { checkAuthAdmin, getCurrentUser } = require("../middleware/auth");
 const { success, error, validation } = require("../helpers/responseApi");
 const AwsApiConstants = require("../constants/envConstants");
-console.log('AwsApiConstants', AwsApiConstants)
 AWS.config.update({
     secretAccessKey: AwsApiConstants.Secret_access_key,
     accessKeyId: AwsApiConstants.Access_key_ID,
